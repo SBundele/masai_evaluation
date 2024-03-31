@@ -3,7 +3,118 @@
 /* :root{
 
 } */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .header{
+    height: 588px;
     background-image: url('../images/hero-image.png');
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 105px 0 88px;
+}
+.navbar > div:first-child, .navbar > ul{
+    display: flex;
+    align-items: center;
+}
+.navbar > div:first-child > img{
+    width: 106px;
+    height: 117px;
+}
+
+.navbar > div:first-child > p{
+    color: #FFFFFF;
+    font-family: ZCOOL KuaiLe;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 29px 0 40px 4px;
+}
+.navbar > ul {
+    width: 583px;
+    height: 52px;
+    background: #191818;
+    padding: 16px 24px 16px 24px;
+    gap: 24px;
+    border-radius: 20px;
+    list-style-type: none;
+}
+.navbar > ul > li > a{
+    font-family: ZCOOL KuaiLe;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navbar div:last-child{
+    background: linear-gradient(93.73deg, #ED0137 20.19%, #F05733 88.3%);
+    padding: 10px 16px 10px 16px;
+    gap: 6.18px;
+    border-radius: 15.44px;
+}
+.navbar div:last-child > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.navbar + div > h1{
+    width: 1262px;
+    text-align: center;
+    margin: 178px 127px 0px 123px;
+    font-family: Shojumaru;
+    font-size: 45px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.intro{
+    background: #191818;
+    display: flex;
+    color: white;
+    padding: 89px 0 0px 163px;
+}
+.intro > div:first-child > h2{
+    color: #ED0137;
+    font-family: Shojumaru;
+    font-weight: 400;
+    font-size: 44px;    
+}
+.intro > div:first-child > p{
+    margin-top: 24px;
+    font-family: ZCOOL KuaiLe;
+    font-size: 24px;
+    font-weight: 400;
+    /* width: 587px; */
+}
+.intro > div:first-child > p > span{
+    display: block;
+}
+.intro > div:first-child > button{
+    font-family: ZCOOL KuaiLe;
+    font-size: 20.03px;
+    font-weight: 400;
+    padding: 17.03px 21.29px 17.03px 21.29px;
+    border-radius: 21.92px;
+    margin-top: 88px;
+}
+.intro > div:last-child{
+    margin-top: -130px;
+}
+
+.roadmap > .cards{
+    background: url('../images/roadmap.png');
+    text-align: center;
+}
+.cards > div{
+    display: flex;
+    
 }
